@@ -2,7 +2,7 @@
 
 With this script, you can test various HTTP methods against an URL. This can be useful to look for HTTP verb tampering vulnerabilities and dangerous HTTP methods.
 
-![example](assets/example.gif)
+![example](assets/http-methods.gif)
 
 ## Setup
 
