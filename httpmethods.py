@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SICARI0 was here :) 
 
 import argparse
 import sys
@@ -11,14 +12,50 @@ from rich.table import Table
 import json
 from http.cookies import SimpleCookie
 
-banner = "[~] HTTP Methods Tester, v1.1.3\n"
+
+banner = """
+\033[91m
+╦ ╦╔╦╗╔╦╗╔═╗  ┌┬┐┌─┐┌┬┐┬ ┬┌─┐┌┬┐┌─┐  
+╠═╣ ║  ║ ╠═╝  │││├┤  │ ├─┤│ │ ││└─┐  
+╩ ╩ ╩  ╩ ╩    ┴ ┴└─┘ ┴ ┴ ┴└─┘─┴┘└─┘ 
+\033[0m
+[~] HTTP Methods Tester, v1.1.4 [~] 
+"""
+
 
 methods = [
-    'CHECKIN', 'CHECKOUT', 'CONNECT', 'COPY', 'DELETE', 'GET', 'HEAD', 'INDEX',
-    'LINK', 'LOCK', 'MKCOL', 'MOVE', 'NOEXISTE', 'OPTIONS', 'ORDERPATCH',
-    'PATCH', 'POST', 'PROPFIND', 'PROPPATCH', 'PUT', 'REPORT', 'SEARCH',
-    'SHOWMETHOD', 'SPACEJUMP', 'TEXTSEARCH', 'TRACE', 'TRACK', 'UNCHECKOUT',
-    'UNLINK', 'UNLOCK', 'VERSION-CONTROL', 'BAMBOOZLE'
+    'CHECKIN',
+    'CHECKOUT',
+    'CONNECT',
+    'COPY',
+    'DELETE',
+    'GET',
+    'HEAD',
+    'INDEX',
+    'LINK',
+    'LOCK',
+    'MKCOL',
+    'MOVE',
+    'NOEXISTE',
+    'OPTIONS',
+    'ORDERPATCH',
+    'PATCH',
+    'POST',
+    'PROPFIND',
+    'PROPPATCH',
+    'PUT',
+    'REPORT',
+    'SEARCH',
+    'SHOWMETHOD',
+    'SPACEJUMP',
+    'TEXTSEARCH',
+    'TRACE',
+    'TRACK',
+    'UNCHECKOUT',
+    'UNLINK',
+    'UNLOCK',
+    'VERSION-CONTROL',
+    'BAMBOOZLE'
 ]
 
 
